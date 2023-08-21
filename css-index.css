@@ -1,76 +1,105 @@
-@media (min-width:900px){
-  .container{
+.navegation {
+  display: flex;
+  align-self: flex-end;
+
+}
+
+@media (min-width:900px) {
+  .container {
     width: auto;
     border: 3px solid black;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 100px;
+
   }
-  .container > div{
+
+  .container>div {
     border: 1px solid black;
+
   }
-  .navegation{
-    display: flex;
+
+  .navegation {
     align-self: flex-end;
     grid-column: 1/5;
+
   }
-  .name{
+
+  .name {
     display: flex;
     color: azure;
     flex-grow: 4;
     font-size: 60px;
+
   }
-  .buttons{
-    display:flex;
+
+  .buttons {
+    display: flex;
     padding-bottom: 20px;
     justify-content: flex-end;
+
   }
-  button{
+
+  button {
     color: aliceblue;
     background-color: black;
     border-radius: 30px;
-  }
 
+  }
 }
-@media (max-width:899px){
-  .container{
+
+@media (max-width:899px) {
+  .container {
     width: auto;
     border: 3px solid black;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 100px;
+
   }
-  .container > div{
+
+  .container>div {
     border: 1px solid white;
+
   }
-  .navegation{
-    display: flex;
-    align-self: flex-end;
+
+  .navegation {
     grid-column: 1/4;
+
   }
-  .name{
+
+  .name {
     display: flex;
     color: azure;
     flex-grow: 4;
     align-self: center;
     font-size: 60px;
+
   }
-  .buttons{
+
+  .buttons {
     display: flex;
     flex-direction: column;
+
   }
-  button{
+
+  button {
     color: aliceblue;
     background-color: black;
     border-radius: 30px;
-    display:flex;
+    display: flex;
     padding-bottom: 10px;
     justify-content: flex-end;
+
   }
-  
+
+
 }
-@media (max-width:745px){
-  .name{
+
+@media (max-width:745px) {
+  .name {
     font-size: 40px;
+
   }
+
 }

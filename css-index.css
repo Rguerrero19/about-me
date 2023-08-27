@@ -1,7 +1,6 @@
 .navegation {
   display: flex;
   align-self: flex-end;
-
 }
 
 @media (min-width:900px) {
@@ -11,7 +10,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 100px;
-
   }
 
   .container>div {
@@ -22,7 +20,6 @@
   .navegation {
     align-self: flex-end;
     grid-column: 1/5;
-
   }
 
   .name {
@@ -30,21 +27,26 @@
     color: azure;
     flex-grow: 4;
     font-size: 60px;
-
   }
 
   .buttons {
     display: flex;
     padding-bottom: 20px;
     justify-content: flex-end;
-
   }
 
   button {
     color: aliceblue;
     background-color: black;
     border-radius: 30px;
+  }
 
+  .down {
+    padding-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    grid-column: 1/5;
+    color: azure;
   }
 }
 
@@ -55,17 +57,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 100px;
-
   }
 
   .container>div {
     border: 1px solid white;
-
   }
 
   .navegation {
     grid-column: 1/4;
-
   }
 
   .name {
@@ -74,13 +73,11 @@
     flex-grow: 4;
     align-self: center;
     font-size: 60px;
-
   }
 
   .buttons {
     display: flex;
     flex-direction: column;
-
   }
 
   button {
@@ -90,16 +87,19 @@
     display: flex;
     padding-bottom: 10px;
     justify-content: flex-end;
-
   }
 
-
+  .down{
+    padding-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    grid-column: 1/5;
+    color: azure;
+  }
 }
 
-@media (max-width:745px) {
+@media (max-width:756px) {
   .name {
     font-size: 40px;
-
   }
-
 }
